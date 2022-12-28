@@ -1,0 +1,152 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-image: url(/obrazky/plocha-light-200px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 2px rgba(97, 97, 97, 0.533);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.div-order__nadpis {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 20px 15px 20px;
+}
+.div-order__paragraph {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 25px 15px 25px;
+}
+.div-order__image {
+    width: 50px;
+    padding-top: 35px;
+}
+ /******** TLAČÍTKA V MENU **********/
+
+.section-first__odkaz-index {
+    background-color: rgba(255, 255, 255, 0.565);
+    color: black;
+    box-shadow: 0 0 5px rgb(109, 109, 109);
+}
+.section-first__odkaz-order {
+    background-color: rgba(24, 184, 196, 1);
+    box-shadow:0 0 10px white;
+    color: white;
+}
+.section-first__odkaz-order:hover {
+    box-shadow: 0 0 20px white;
+}
+
+/********* TLAČÍTKA **********/
+
+.div-order__odkaz {
+    background-color: rgb(255, 170, 0);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(131, 131, 131, 0.709);
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.div-order__odkaz:hover {
+    background-color: rgb(255, 146, 3);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.main {
+    padding-bottom: 80px;
+}
+
+@media screen and (min-width: 600px) {
+
+    .div-order {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .div-order {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 1300px) {
+
+    .div-order {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 1500px) {
+
+    .order-flex {
+        display: flex;
+    }
+    .div-order {
+        width: 30%;
+    }
+    .div-order-first {
+        margin-right: 30px;
+    }
+    .div-order-second {
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 1900px) {
+
+    .order-flex {
+        display: flex;
+    }
+    .div-order {
+        width: 25%;
+    }
+    .div-order-first {
+        margin-right: 30px;
+    }
+    .div-order-second {
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 2300px) {
+
+    .order-flex {
+        display: flex;
+    }
+    .div-order {
+        width: 20%;
+    }
+    .div-order-first {
+        margin-right: 30px;
+    }
+    .div-order-second {
+        margin-left: 30px;
+    }
+}
