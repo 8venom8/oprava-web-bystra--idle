@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+        </style>
+</head>
+
+<body>
+<span id="kotva2"></span>
+
+<section class="section-first">
+    <div class="section-first__div-menu">
+        <img class="section-first__image-logo" src="/obrazky/logo_barevne_ctverec.png" alt="logo">
+
+        <menu class="section-first__menu">
+            <li><a class="section-first__odkaz-menu section-first__odkaz-index" href="/#kotva1">Poznej Židli</a></li>
+            <li> <a class="section-first__odkaz-menu section-first__odkaz-live" href="/live/#kotva-live">V Židli to žije</a></li>
+            <li> <a class="section-first__odkaz-menu section-first__odkaz-order" href="/order/#kotva-order">Objednejte si nás</a></li>
+            <li> <a class="section-first__odkaz-menu section-first__odkaz-contact" href="/contact/#kotva-contact">Kontakt</a></li>
+        </menu>
+
+        <div class="section-first__div-sipky">
+            <a href="#kotva1"><img class="section-first__image-sipky" src="/obrazky/blue-sipky.png" alt="ukazatel"></a>
+        </div>
+    </div>
+</section>
+
+<span id="kotva-order"></span>
+<span id="kotva-live"></span>
+<span id="kotva-contact"></span>
+<span id="kotva1"></span>
+
+<main class="main">
+
+    <div class="main__div-btn-menu">
+        <img class="main__image-btn-menu" src="/obrazky/tlacitka.png" alt="zpět na menu">
+
+        <a class="main__odkaz-btn-menu" href="#kotva2 ">Menu
+        </a>
+
+    </div>
+
+
+
+    {{ content | safe }}
+
+
+
+</main>
+
+
+
+
+<footer>
+
+        <div class="footer__div1-mapa">
+            <div class="footer__div2-mapa">
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d10462.551154515391!2d16.605935839048435!3d49.036495668883546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x4712c75f96ee2fe1%3A0x72d855745883c21!2zQnlzdHLDoSDFvWlkbGUsIE7DoWRyYcW-bsOtIDEzNSwgNjY3IDAxIMW9aWRsb2Nob3ZpY2U!3m2!1d49.036496!2d16.6146906!5e0!3m2!1scs!2scz!4v1670420575604!5m2!1scs!2scz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    <div class="footer__odkazy-fb-ing">
+        <a href="https://www.facebook.com/bystrazidle"><img src="/obrazky/fb.png" class="footer__odkaz footer__odkaz-fb" alt="odkaz na facebook"></a>
+
+        <a href="https://www.instagram.com/bystrazidle/?hl=cs"><img src="/obrazky/ing.png" class="footer__odkaz footer__odkaz-ing" alt="odkaz na instagram"></a>
+    </div>
+
+
+</footer>
+
+</body>
+</html>

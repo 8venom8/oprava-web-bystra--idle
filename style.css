@@ -1,0 +1,296 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* POZADÍ + GRID */
+
+.section-first {
+    background-image: url("obrazky/pozadi-mobil-orez.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-first__div-menu {
+    display: grid;
+    grid-template-columns: auto 60% auto;
+    grid-template-rows: 210px auto 210px;
+    justify-items: center;
+    align-items: center;
+}
+
+/************MENU**************/
+
+.section-first__menu {
+    list-style: none;
+
+}
+.section-first__odkaz-menu {
+    text-decoration: none;
+    color: black;
+    width: 263px;
+    height: 45px;
+    box-shadow: 0 0 5px rgb(109, 109, 109);
+    background-color: rgba(255, 255, 255, 0.621);
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 11px;
+
+}
+.section-first__odkaz-menu:hover {
+    background-color: rgba(24, 184, 196, 1);
+    color: white;
+    box-shadow: 0 0 15px white;
+}
+.section-first__odkaz-index {
+    background-color: rgba(24, 184, 196, 1);
+    color: white;
+    box-shadow: 0 0 8px white;
+}
+.section-first__odkaz-index:hover {
+    color: white;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.section-first__image-sipky {
+    width: 80px;
+
+}
+.section-first__image-sipky:hover {
+    width: 100px;
+}
+.section-first__div-sipky {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+    justify-content: center;
+}
+.section-first__image-logo {
+    grid-column: 2 / 3;
+    grid-row: 1 /2;
+    width: 130px;
+    border-radius: 25%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.546);
+    box-shadow:0 0 15px rgb(61, 61, 61);
+    margin-top: 60px
+}
+.section-first__menu {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-top: 40px;
+}
+li {
+    display: grid;
+    margin: 10px;
+}
+
+
+/************ POSUVNÉ TLAČÍTKO MENU ************/
+
+.main__div-btn-menu {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.635);
+    box-shadow: 0 0 8px rgba(57, 57, 57, 0.455);
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+}
+.main__image-btn-menu {
+    width: 20px;
+    padding-bottom: 10px;
+}
+.main__odkaz-btn-menu {
+    background-color: rgb(255, 170, 0);
+    box-shadow: 0 0 5px rgb(48, 48, 48);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+.main__odkaz-btn-menu:hover {
+    background-color:rgb(255, 146, 3);
+    box-shadow:0 0 5px rgb(255, 255, 255);
+}
+
+
+/***************** PATIČKA ****************/
+
+.footer__odkaz {
+    width: 50px;
+    padding: 10px 5px 0 5px;
+    margin: 0 10px;
+    filter: drop-shadow(1px 1px 1px rgb(138, 138, 138));
+}
+.footer__odkazy-fb-ing {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    }
+.footer__div2-mapa {
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    box-shadow: 0 0 5px rgba(86, 86, 86, 0.61);
+    width: 100%;
+}
+.footer__map {
+    width: 100%;
+}
+
+
+/***************** OBSAH ******************/
+
+.main__section-second {
+    background-image: url(obrazky/plocha-light-200px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    display: grid;
+    z-index: 1;
+    grid-template-columns: auto 80% auto;
+    grid-template-rows: repeat(7, auto);
+    gap: 30px;
+    text-align: center;
+    row-gap: 50px;
+}
+.main__article {
+    grid-column: 2 / 3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px rgba(53, 53, 53, 0.389);
+    padding: 50px;
+}
+.main__article-bistrousky {
+    margin-bottom: 100px;
+}
+.main__article-stanice {
+    margin-top: 100px;
+}
+.main__image {
+    width: 100%;
+    padding: 2px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219)
+}
+
+h1,
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+/*************POZADÍ**************/
+
+@media screen and (min-width: 640px) {
+
+    .section-first {
+        background-image: url("obrazky/pozadi-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .section-first {
+        background-image: url("obrazky/pozadi-pc-1500.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main__section-second {
+        grid-template-columns: auto 50% auto;
+    }
+    .main__image {
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .section-first {
+        background-image: url("obrazky/pozadi-pc-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main__section-second {
+        grid-template-columns: auto 45% auto;
+    }
+    .main__image {
+        width:90%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .main__section-second {
+        grid-template-columns: auto 42% auto;
+    }
+    .main__image {
+        width: 88%;
+    }
+}
+
+@media screen and ( min-width: 2100px) {
+    
+    .section-first {
+        background-image: url("obrazky/white-2500.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main__image {
+        width: 80%;
+    }
+ }
+
+ @media screen and ( min-width: 2600px) {
+
+    .section-first {
+        background-image: url("obrazky/white-3000.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main__section-second {
+        grid-template-columns: auto 40% auto;
+    }
+    .main__image {
+        width: 70%;
+    }
+ }
+
+ @media screen and ( min-width: 3100px) {
+
+    .section-first {
+        background-image: url("obrazky/pozadi-3600.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ }
