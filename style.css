@@ -74,28 +74,21 @@ body {
     width: 150px;
     position: relative;
 }
-.section-first__div-logo {
+.section-first__image-logo {
     grid-column: 2 / 3;
     grid-row: 1 /2;
-    width: 250px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
-    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
-    border-radius: 50%;
-    padding: 50px;
+    filter: drop-shadow(0px 0px 1px rgb(255, 255, 255));
+    border-radius: 0%;
+    padding: 0px;
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-/*  https://www.colorzilla.com/gradient-editor/  */
 
-
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+70&1+2,0+69 */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 2%, rgba(255,255,255,0) 69%, rgba(255,255,255,0) 70%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 2%,rgba(255,255,255,0) 69%,rgba(255,255,255,0) 70%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 2%,rgba(255,255,255,0) 69%,rgba(255,255,255,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .section-first__menu {
     grid-column: 2 / 3;

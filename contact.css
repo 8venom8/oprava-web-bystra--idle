@@ -132,7 +132,7 @@ body {
     color: rgb(0, 174, 186);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 750px) {
 
     .obsah--flexbox {
         display: flex;
