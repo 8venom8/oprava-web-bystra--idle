@@ -48,15 +48,15 @@ main {
 .section-first__odkaz-index {
     background-color: rgba(255, 255, 255, 0.565);
     color: black;
-    box-shadow: 0 0 5px rgb(109, 109, 109);
+    box-shadow: 0 0 3px rgb(109, 109, 109);
 }
 .section-first__odkaz-order {
     background-color: rgba(24, 184, 196, 1);
-    box-shadow:0 0 10px white;
     color: white;
+    box-shadow: 0 0 2px rgb(61, 61, 61);
 }
 .section-first__odkaz-order:hover {
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 15px white;
 }
 
 /********* TLAČÍTKA **********/

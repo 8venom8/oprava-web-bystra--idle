@@ -35,7 +35,7 @@ body {
     color: black;
     width: 263px;
     height: 45px;
-    box-shadow: 0 0 5px rgb(109, 109, 109);
+    box-shadow: 0 0 3px rgb(109, 109, 109);
     background-color: rgba(255, 255, 255, 0.621);
     border-radius: 15px;
     font-size: 16px;
@@ -52,13 +52,14 @@ body {
 .section-first__odkaz-index {
     background-color: rgba(24, 184, 196, 1);
     color: white;
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 0 2px rgb(61, 61, 61);
 }
 .section-first__odkaz-index:hover {
     color: white;
     box-shadow: 0 0 15px rgb(255, 255, 255);
 }
-.section-first__image-sipky {
+
+/* .section-first__image-sipky {
     width: 80px;
 
 }
@@ -69,21 +70,22 @@ body {
     grid-column: 2 / 3;
     grid-row: 3 / 3;
     justify-content: center;
-}
-.section-first__image-logo {
-    width: 150px;
-    position: relative;
-}
+} */
+
 .section-first__image-logo {
     grid-column: 2 / 3;
+    position: relative;
     grid-row: 1 /2;
-    width: 200px;
+    width: 160px;
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(0px 0px 1px rgb(255, 255, 255));
-    border-radius: 0%;
+    border-radius: 18%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.775);;
+    background-color: rgba(255, 255, 255, 0.156);
     padding: 0px;
     margin-top: 100px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

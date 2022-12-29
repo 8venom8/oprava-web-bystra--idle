@@ -21,17 +21,18 @@ body {
 /********** TLAČÍTKA MENU **********/
 
 .section-first__odkaz-index {
-    box-shadow: 0 0 5px rgb(109, 109, 109);
+    background-color: rgba(255, 255, 255, 0.565);
     color: black;
-    background-color: rgba(255, 255, 255, 0.621);
+    box-shadow: 0 0 3px rgb(109, 109, 109);
 }
 .section-first__odkaz-contact {
     background-color: rgba(24, 184, 196, 1);
     color: white;
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 0 2px rgb(61, 61, 61);
 }
+
 .section-first__odkaz-contact:hover {
-    box-shadow: 0 0 20px rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
 /********* OBSAH *********/
