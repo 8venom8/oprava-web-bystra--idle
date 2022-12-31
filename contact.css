@@ -87,6 +87,13 @@ body {
 .obsah--flexbox__image {
     width: 50px;
 }
+.obsah--flexbox__odkaz-phone {
+    color: black;
+    text-decoration-color: rgb(24, 185, 196);
+    text-decoration-thickness: 2px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
 
 /************* OTVÍRACÍ HODINY *************/
 
