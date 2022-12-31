@@ -191,7 +191,7 @@ li {
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
     box-shadow: 1px 1px 5px rgba(53, 53, 53, 0.389);
-    padding: 35px;
+    padding: 20px;
 }
 .main__article-bistrousky {
     margin-bottom: 100px;
@@ -202,7 +202,8 @@ li {
 .main__image {
     width: 100%;
     padding: 2px;
-    margin: 5px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219)
@@ -218,6 +219,7 @@ p {
     padding: 10px;
 }
 
+
 /*************POZADÍ**************/
 
 @media screen and (min-width: 640px) {
@@ -226,6 +228,9 @@ p {
         background-image: url("obrazky/pozadi-tablet.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .main__article {
+        padding: 40px;
     }
 }
 
@@ -242,6 +247,9 @@ p {
     }
     .main__image {
         width:100%;
+    }
+    .main__article {
+        padding: 50px;
     }
 }
 
