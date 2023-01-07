@@ -21,18 +21,20 @@ body {
 /********** TLAČÍTKA MENU **********/
 
 .section-first__odkaz-index {
-    background-color: rgba(255, 255, 255, 0.565);
-    color: black;
     box-shadow: 0 0 3px rgb(109, 109, 109);
+    background-image: linear-gradient(to right, #ffffff90 0%, #ffffff 51%, #ffffff82 100%);
 }
 .section-first__odkaz-contact {
-    background-color: rgba(24, 184, 196, 1);
-    color: white;
-    box-shadow: 0 0 2px rgb(61, 61, 61);
+    background-image: linear-gradient(to right, #eb7d00 8%, #fec92b 41%, #ff8800 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0px 0px 3px rgb(133, 133, 133);
+    color: rgb(0, 0, 0);
 }
 
 .section-first__odkaz-contact:hover {
-    box-shadow: 0 0 15px rgb(255, 255, 255);
+    background-position: right center;
+    color: rgb(0, 0, 0);
 }
 
 /********* OBSAH *********/
@@ -49,7 +51,7 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 300px;
-    height: 480px;
+    height: 570px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -58,7 +60,7 @@ body {
 }
 .obsah--flexbox__paragraph {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 15px;
 }
@@ -73,12 +75,6 @@ body {
     text-decoration-thickness: 2px;
     margin-top: 65px;
     margin-bottom: 5px;
-}
-.obsah--flexbox__image-address {
-    margin-left: 18px;
-}
-.obsah--flexbox__image-email {
-    margin-left: 12px;
 }
 .obsah--flexbox__text {
     padding: 15px;
@@ -95,6 +91,42 @@ body {
     text-underline-position: under;
 }
 
+.obsah--flexbox__paragraph-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.obsah--flexbox__paragraph-button {
+    text-decoration: none;
+    border-radius: 8px;
+
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 1px 1px 3px rgb(193, 192, 192);
+    font-weight: 500;
+}
+.obsah--flexbox__paragraph-button-fb {
+    background-image: linear-gradient(to right, rgb(0, 111, 196) 0%, rgb(124, 217, 250) 51%, rgb(0, 157, 255) 100%);
+    margin-bottom: 10px;
+    padding: 10px 40px;
+}
+.obsah--flexbox__paragraph-button-fb:hover {
+    background-position: right center;
+    color: white;
+}
+
+.obsah--flexbox__paragraph-button-ing {
+    background-image: linear-gradient(to right, rgb(145, 58, 180) 0%, rgb(255, 39, 1) 51%, rgb(145, 58, 180)100%);
+    padding: 10px 50px;
+}
+.obsah--flexbox__paragraph-button-ing:hover {
+    background-position: right center;
+    color: white;
+}
 /************* OTVÍRACÍ HODINY *************/
 
 .obsah--flexbox__div-grid {
@@ -105,14 +137,14 @@ body {
     align-items: center;
     justify-content: center;
     width: 300px;
-    height: 480px;
+    height: 520px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 1px 1px 2px rgba(109, 109, 109, 0.535);
     color: black;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 35px 35px 45px 35px;
+    padding: 60px 35px 45px 35px;
     margin-top: 50px;
 }
 .obsah--flexbox__line-nadpis {

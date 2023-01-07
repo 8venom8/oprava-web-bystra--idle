@@ -1,0 +1,36 @@
+RewriteEngine on
+
+# --------------------------------------------
+# redirects all http to https
+
+# If we receive a forwarded http request from a proxy...
+RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+
+# ...or just a plain old http request directly from the client
+RewriteCond %{HTTP:X-Forwarded-Proto} =""
+RewriteCond %{HTTPS} !=on
+
+# Redirect to https version
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# --------------------------------------------
+# remove .html from url
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+
+# --------------------------------------------
+# redirects all links to files or folders that do not exist to home page
+
+# FallbackResource /index.html # didnt work properly
+
+DirectoryIndex index.html
+ErrorDocument 404 https://bystrazidle.cz/
+ErrorDocument 500 https://bystrazidle.cz/
+
+

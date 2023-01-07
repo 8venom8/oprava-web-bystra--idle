@@ -36,7 +36,8 @@ body {
     width: 263px;
     height: 45px;
     box-shadow: 0 0 3px rgb(109, 109, 109);
-    background-color: rgba(255, 255, 255, 0.621);
+    background-image: linear-gradient(to right, #ffffff90 0%, #ffffff 51%, #ffffff82 100%);
+    transition: 0.5s;
     border-radius: 15px;
     font-size: 16px;
     font-weight: bold;
@@ -45,18 +46,21 @@ body {
 
 }
 .section-first__odkaz-menu:hover {
-    background-color: rgba(24, 184, 196, 1);
-    color: white;
+    background-image: linear-gradient(to right, #eb7d00 8%, #fec92b 41%, #ff8800 100%);
+    color: rgb(0, 0, 0);
     box-shadow: 0 0 15px white;
 }
 .section-first__odkaz-index {
-    background-color: rgba(24, 184, 196, 1);
-    color: white;
-    box-shadow: 0 0 2px rgb(61, 61, 61);
+    background-image: linear-gradient(to right, #eb7d00 8%, #fec92b 41%, #ff8800 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0px 0px 3px rgb(133, 133, 133);
+    color: rgb(0, 0, 0);
+
 }
 .section-first__odkaz-index:hover {
-    color: white;
-    box-shadow: 0 0 15px rgb(255, 255, 255);
+    background-position: right center;
+    color: rgb(0, 0, 0);
 }
 
 /* .section-first__image-sipky {
@@ -82,7 +86,7 @@ body {
     filter: drop-shadow(0px 0px 1px rgb(255, 255, 255));
     border-radius: 18%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.775);;
-    background-color: rgba(255, 255, 255, 0.156);
+    background-color: rgba(255, 255, 255, 0.454);
     padding: 0px;
     margin-top: 100px;
     margin-bottom: 40px;
@@ -126,8 +130,11 @@ li {
     padding-bottom: 10px;
 }
 .main__odkaz-btn-menu {
-    background-color: rgb(255, 170, 0);
-    box-shadow: 1px 1px 2px rgba(90, 90, 90, 0.494);
+    background-image: linear-gradient(to right, #eb7d00 0%, #ffc400 51%, #ff8800 100%);
+    margin: 10px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0px 0px 3px rgb(133, 133, 133);
     border-radius: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -141,8 +148,8 @@ li {
     color: black;
 }
 .main__odkaz-btn-menu:hover {
-    background-color:rgb(255, 146, 3);
-    box-shadow:0 0 5px rgb(255, 255, 255);
+    background-position: right center;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -152,7 +159,10 @@ li {
     width: 50px;
     padding: 10px 5px 0 5px;
     margin: 0 10px;
-    filter: drop-shadow(1px 1px 1px rgb(138, 138, 138));
+/*     filter: drop-shadow(1px 1px 1px rgb(138, 138, 138)); */
+}
+.footer__odkaz:hover {
+    filter: drop-shadow(0px 0px 4px rgb(255, 255, 255));
 }
 .footer__odkazy-fb-ing {
     display: flex;
