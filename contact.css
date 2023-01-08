@@ -101,11 +101,11 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1;
+    padding-top: 18px;
 }
 .obsah--flexbox__paragraph-button {
     text-decoration: none;
     border-radius: 8px;
-
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
@@ -178,14 +178,14 @@ body {
     text-decoration-thickness: 2px; */
 }
 .obsah--flexbox__line {
-    border-bottom: 5px solid rgba(24, 185, 196, 0.241);
+    border-bottom: 5px solid rgba(255, 179, 0, 0.241);
     font-weight: 550;
 }
 .obsah--flexbox__line-so,
 .obsah--flexbox__line-so-hod,
 .obsah--flexbox__line-ne,
 .obsah--flexbox__line-ne-hod {
-    color: rgb(0, 174, 186);
+    color: rgb(213, 145, 0);
 }
 
 @media screen and (min-width: 750px) {
