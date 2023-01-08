@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("obrazky-live");
     eleventyConfig.addPassthroughCopy("obrazky-contact");
     eleventyConfig.addPassthroughCopy("obrazky-order");
+    eleventyConfig.addPassthroughCopy(".htaccess");
    };
 
    return {
