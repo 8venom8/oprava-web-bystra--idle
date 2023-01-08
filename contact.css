@@ -151,9 +151,6 @@ body {
     padding: 50px 35px 45px 35px;
     margin-top: 50px;
 }
-.obsah--flexbox__div-second {
-
-}
 .obsah--flexbox__image-calendar {
     width: 50px;
 }
@@ -178,14 +175,14 @@ body {
     text-decoration-thickness: 2px; */
 }
 .obsah--flexbox__line {
-    border-bottom: 5px solid rgba(255, 179, 0, 0.241);
+    border-bottom: 5px solid rgba(120, 226, 255, 0.241);
     font-weight: 550;
 }
 .obsah--flexbox__line-so,
 .obsah--flexbox__line-so-hod,
 .obsah--flexbox__line-ne,
 .obsah--flexbox__line-ne-hod {
-    color: rgb(213, 145, 0);
+    color: rgb(0, 206, 213);
 }
 
 @media screen and (min-width: 750px) {
