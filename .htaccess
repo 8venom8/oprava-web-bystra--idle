@@ -33,4 +33,3 @@ DirectoryIndex index.html
 ErrorDocument 404 https://bystrazidle.cz/
 ErrorDocument 500 https://bystrazidle.cz/
 
-
