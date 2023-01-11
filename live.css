@@ -142,7 +142,6 @@ main {
 .section-main__paragraph-popis {
     padding: 10px 20px 40px 20px;
     text-align: center;
-    font-weight: 600;
 }
 .section-main_popis-odkaz {
     color: rgb(228, 133, 0);
