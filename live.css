@@ -44,12 +44,7 @@ main {
 .section-main__image-oslava {
     width: 120px;
 }
-.section_main__div-paragraph {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.section_main__div {
     background-color: white;
     border-radius: 10px;
     width: 80%;
@@ -59,6 +54,13 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 1px 1px 2px rgba(109, 109, 109, 0.535);
+}
+.section_main__div-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .section-main__nadpis {
     text-align: center;
@@ -80,8 +82,67 @@ main {
     grid-template-columns: auto auto;
     gap: 10px;
     padding: 0 0 80px 0;
-}
+}  
 
+
+/* AKCE */
+
+.section-main__nadpis-akce {
+    text-align: center;
+}
+.section-main__podnadpis {
+    margin-bottom: 3px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.section_main__div-akce {
+    width: 80%;
+}
+.section-main__div-obsah {
+    background-color: #fcefde;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgb(186, 186, 186);
+    width: 100%;
+}
+.section-main_image-obsah {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.section-main_div-div {
+    display: flex;
+    align-items: center;
+}
+.section-main_div-div-image {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.section-main_div-div-paragraph {
+    font-size: 15px;
+    padding-left: 2px;
+}
+.main_section-paragraph-odkaz {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-left: 15px;
+    font-weight: 600;
+}
+.section-main_akce-odkaz-image {
+    width: 70px;
+    margin-top: 17px;
+}
+.section-main__paragraph-popis {
+    padding: 28px 0 0px;
+    text-align: center;
+}
+.section-main_popis-odkaz {
+    color: rgb(228, 133, 0);
+}
 @media screen and (min-width: 600px) {
 
 
@@ -97,6 +158,9 @@ main {
         gap: 0px;
         padding: 0 0 80px 0;
     }
+    .section_main__div-akce {
+        width: 70%;
+    }
 }
 @media screen and (min-width: 800px) {
 
@@ -107,5 +171,10 @@ main {
         margin-left: auto;
         margin-right: auto;
     }
+    .section_main__div-akce {
+        width: 590px;
+        padding: 40px;
+    }
+
 }
 
