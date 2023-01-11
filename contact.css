@@ -155,8 +155,8 @@ body {
     width: 50px;
 }
 .obsah--flexbox__div-image-calendar {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     grid-column: 1 / span 2;
     grid-row: 1 / 2;
 }
@@ -184,7 +184,6 @@ body {
 .obsah--flexbox__line-ne-hod {
     color: rgb(0, 206, 213);
 }
-
 @media screen and (min-width: 750px) {
 
     .obsah--flexbox {
