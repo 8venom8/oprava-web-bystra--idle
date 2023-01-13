@@ -103,19 +103,25 @@ main {
     width: 80%;
 }
 .section-main__div-obsah {
-    background-color: #fee1bc;
+    background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 1px 1px 3px rgb(186, 186, 186);
+    box-shadow: 0px 0px 4px rgb(176, 176, 176);
     width: 100%;
+    border-bottom: 4px solid #f48200;
+    margin-bottom: 80px;
 }
 .section-main_image-obsah {
     width: 100%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    margin-bottom: 20px;
 }
 .section-main_div-div {
     display: flex;
     align-items: center;
+    margin-top: 5px;
+    margin-left: 15px;
+
 }
 .section-main_div-div-image {
     width: 30px;
@@ -137,7 +143,7 @@ main {
 }
 .section-main_akce-odkaz-image {
     width: 70px;
-    margin-top: 17px;
+    margin-top: 12px;
 }
 .section-main__paragraph-popis {
     padding: 10px 20px 40px 20px;
@@ -161,10 +167,17 @@ main {
 .section-main_div-odkaz {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 .section-main_akce-odkaz:hover {
     background-position: right center;
     color: rgb(0, 0, 0);
+}
+.section-main__dodatek {
+    font-weight: 600;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 20px;
 }
 @media screen and (min-width: 600px) {
 
