@@ -30,6 +30,6 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 # FallbackResource /index.html # didnt work properly
 
 DirectoryIndex index.html
-ErrorDocument 404 https://bystrazidle.cz/
-ErrorDocument 500 https://bystrazidle.cz/
+ErrorDocument 404 https://textilzoubek.cz/
+ErrorDocument 500 https://textilzoubeke.cz/
 
